@@ -15,8 +15,8 @@ document.onkeydown = function (event) {
         top1++;
     }
 
-    if (event.key == 'ArrowTop') {
-        block.style.down = down1 + 'px';
+    if (event.key == 'ArrowUp') {
+        block.style.up = down1 + 'px';
         down1++;
     }
 }
