@@ -1,5 +1,6 @@
 var block = document.getElementById('test');
 var left = 0;
+var top = 0;
 
 document.onkeydown = function (event) {
     console.log(event);
