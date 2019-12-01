@@ -1,6 +1,6 @@
 var block = document.getElementById('test');
 var left = 0;
-var top = 0;
+var top1 = 0;
 
 document.onkeydown = function (event) {
     console.log(event);
@@ -10,7 +10,7 @@ document.onkeydown = function (event) {
     }
 
     if (event.key == 'ArrowDown') {
-        block.style.top = top + 'px';
-        top++;
+        block.style.top = top1 + 'px';
+        top1++;
     }
 }
