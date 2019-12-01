@@ -8,4 +8,9 @@ document.onkeydown = function (event) {
         block.style.left = left + 'px';
         left++;
     }
+
+    if (event.key == 'ArrowDown') {
+        block.style.top = top + 'px';
+        top++;
+    }
 }
