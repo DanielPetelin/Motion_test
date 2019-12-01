@@ -14,4 +14,9 @@ document.onkeydown = function (event) {
         block.style.top = top1 + 'px';
         top1++;
     }
+
+    if (event.key == 'ArrowTop') {
+        block.style.down = down1 + 'px';
+        down1++;
+    }
 }
